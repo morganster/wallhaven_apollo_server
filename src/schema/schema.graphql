@@ -1,0 +1,8 @@
+# Types
+scalar DateTime
+# Input Types
+
+# Define queries here
+type Query {
+  wallpapers(searchTerm: String!, page: Int!): Wallpapers!
+}

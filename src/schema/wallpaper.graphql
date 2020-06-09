@@ -1,0 +1,23 @@
+type Wallpaper {
+  id: ID!
+  path: String!
+  resolution: String!
+  category: String!
+  purity: String!
+  thumbs: Thumbs
+  created_at: DateTime!
+}
+
+type Thumbs {
+  large: String!
+  original: String!
+  small: String!
+}
+
+type Wallpapers {
+  count: Int
+  current_page: Int
+  total_pages: Int
+  per_page: Int
+  list: [Wallpaper!]!
+}
