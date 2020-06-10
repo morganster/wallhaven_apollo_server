@@ -16,8 +16,6 @@ export class WallhavenApi extends RESTDataSource {
       page,
     });
 
-    console.log(data);
-
     return {
       list: data.data,
       count: data.meta.total,
