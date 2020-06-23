@@ -14,6 +14,7 @@ export class WallhavenApi extends RESTDataSource {
     const data = await this.get("search", {
       q: searchTerm,
       page,
+      ratios: ["10x16", "9x16"],
     });
 
     return {
