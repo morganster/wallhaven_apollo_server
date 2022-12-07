@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/morganster/wallhaven_apollo_server#readme",
   "devDependencies": {
-    "@graphql-codegen/cli": "1.13.5",
+    "@graphql-codegen/cli": "1.21.8",
     "@graphql-codegen/introspection": "1.13.5",
     "@graphql-codegen/schema-ast": "^1.15.2",
     "@graphql-codegen/typescript": "1.13.5",
